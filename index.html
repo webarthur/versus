@@ -3,11 +3,46 @@
   <head>
     <meta charset="utf-8" />
     <title>Versus</title>
-    <link rel="stylesheet" href="/css/helpers.min.css">
+    <link rel="stylesheet" href="css/helpers.min.css">
+    <script src="js/core.js"></script>
+    <script src="js/ideal-es5.min.js"></script>
   </head>
-  <body layout="max-1200 center">
-    <h1>&gt;&gt; VERSUS &lt;&lt;</h1>
-    <a href="compara.html">compara.html</a>
-    | <a href="perfil.html">perfil.html</a>
+  <body text="helvetica black-90" layout="max-1200 center">
+
+    <style id="blocos">
+      * { box-sizing: border-box }
+      .bloco { border-radius: 4px; padding: 10px; margin: 10px }
+    </style>
+
+    <h1 text="center">&gt;&gt; VERSUS &lt;&lt;</h1>
+
+    <nav layout="gray-10 padding-10">
+      <a href="compara.html">Compara</a>
+      | <a href="perfil.html">Perfil</a>
+    </nav>
+
+    <div id="comparaArea">
+      <template id="solucaoTpl">
+        <div cols="3" onhover="pointer" class="bloco" layout="gray-90">
+          <div class="bloco" text="white bold" layout="blue" onclick="$e('comparaArea').append($e('solucaoTpl').innerHTML); this.parentNode.find('textarea').show(); this.remove()">
+            + Adicionar solução
+          </div>
+          <textarea name="q" rows="8" layout="fluid" placeholder="Solução" hidden></textarea>
+        </div>
+      </template>
+      <div cols="3" class="bloco" layout="gray-90">
+        <div class="bloco" text="white big bold center">
+          <big text="2.2em gray-60">?</big>
+        </div>
+        <div class="bloco" layout="green">
+          <textarea name="q" rows="8" layout="fluid" placeholder="Qual sua pergunta?"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $e('comparaArea').append($e('solucaoTpl').innerHTML)
+    </script>
+
   </body>
 </html>

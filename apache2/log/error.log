@@ -1,0 +1,134 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 14:47:38.612237 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 14:47:38.612295 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Mar 24 14:48:52.129259 2017] [:error] [pid 10] [client 172.17.0.1:46622] PHP Warning:  file_put_contents(/var/www/html/api/../../nonces/441a748925): failed to open stream: No such file or directory in /var/www/html/api/functions.php on line 18, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 14:48:52.130836 2017] [:error] [pid 10] [client 172.17.0.1:46622] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/api/functions.php on line 36, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 14:48:52.130896 2017] [:error] [pid 10] [client 172.17.0.1:46622] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/api/functions.php on line 37, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 14:48:52.130978 2017] [:error] [pid 10] [client 172.17.0.1:46622] PHP Warning:  file_put_contents(/var/www/html/api/xhr-2017.log): failed to open stream: Permission denied in /var/www/html/api/functions.php on line 37, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 14:50:15.095086 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 14:50:58.496942 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 14:50:58.496994 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Mar 24 14:51:06.986220 2017] [autoindex:error] [pid 7] [client 172.17.0.1:46668] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Mar 24 14:51:08.999244 2017] [autoindex:error] [pid 7] [client 172.17.0.1:46668] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Mar 24 14:51:52.289381 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 14:51:54.293713 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 14:51:54.293760 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Mar 24 14:51:58.803049 2017] [autoindex:error] [pid 8] [client 172.17.0.1:46734] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Fri Mar 24 14:52:09.153724 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 14:52:26.309202 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 14:52:26.309264 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Mar 24 14:53:57.121172 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 14:54:26.398686 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 14:54:26.398745 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Mar 24 14:55:22.503029 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 14:55:24.482210 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 14:55:24.482258 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Mar 24 14:58:39.000644 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 14:58:53.203926 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 14:58:53.204053 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Mar 24 15:06:40.364285 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 15:06:41.964279 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 15:06:41.964325 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Mar 24 15:07:56.672620 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 15:07:59.360865 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 15:07:59.360914 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Mar 24 15:08:21.167474 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 15:08:23.151256 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 15:08:23.151306 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Mar 24 15:08:43.428464 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 15:08:53.391696 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 15:08:53.391735 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Mar 24 15:08:59.307069 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 15:09:29.748903 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 15:09:29.748944 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Mar 24 15:09:34.900652 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 15:09:39.893766 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 15:09:39.893810 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Mar 24 15:10:54.161892 2017] [:error] [pid 11] [client 172.17.0.1:58210] PHP Notice:  Undefined index: email in /var/www/html/public/api/index.php on line 41, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:10:54.162066 2017] [:error] [pid 11] [client 172.17.0.1:58210] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/public/api/functions.php on line 36, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:10:54.162130 2017] [:error] [pid 11] [client 172.17.0.1:58210] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/public/api/functions.php on line 37, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:10:54.162265 2017] [:error] [pid 11] [client 172.17.0.1:58210] PHP Warning:  file_put_contents(/var/www/html/public/api/xhr-2017.log): failed to open stream: Permission denied in /var/www/html/public/api/functions.php on line 37, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:10:58.963015 2017] [:error] [pid 11] [client 172.17.0.1:58210] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/public/api/functions.php on line 36, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:10:58.963085 2017] [:error] [pid 11] [client 172.17.0.1:58210] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/public/api/functions.php on line 37, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:10:58.963153 2017] [:error] [pid 11] [client 172.17.0.1:58210] PHP Warning:  file_put_contents(/var/www/html/public/api/xhr-2017.log): failed to open stream: Permission denied in /var/www/html/public/api/functions.php on line 37, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:16:36.438253 2017] [:error] [pid 17] [client 172.17.0.1:58464] PHP Warning:  file_put_contents(/var/www/html/public/api/xhr-2017.log): failed to open stream: Permission denied in /var/www/html/public/api/functions.php on line 37, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:17:27.499541 2017] [:error] [pid 19] [client 172.17.0.1:58468] PHP Warning:  file_put_contents(/var/www/html/public/api/xhr-2017.log): failed to open stream: Permission denied in /var/www/html/public/api/functions.php on line 37, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:19:17.164891 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 15:21:51.197490 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 15:21:51.197548 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Mar 24 15:23:22.999758 2017] [:error] [pid 9] [client 172.17.0.1:48030] PHP Notice:  Undefined index: email in /var/www/html/public/api/index.php on line 41, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:23:30.842208 2017] [:error] [pid 10] [client 172.17.0.1:48038] PHP Notice:  Undefined index: email in /var/www/html/public/api/index.php on line 41, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:28:02.852495 2017] [:error] [pid 8] [client 172.17.0.1:48172] PHP Notice:  Undefined index: email in /var/www/html/public/api/index.php on line 41, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:28:46.904617 2017] [:error] [pid 18] [client 172.17.0.1:48176] PHP Notice:  Undefined index: email in /var/www/html/public/api/index.php on line 41, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:36:07.224302 2017] [:error] [pid 20] [client 172.17.0.1:48432] PHP Notice:  Undefined index: email in /var/www/html/public/api/index.php on line 41, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:36:39.303689 2017] [:error] [pid 11] [client 172.17.0.1:48436] PHP Notice:  Undefined index: email in /var/www/html/public/api/index.php on line 41, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:36:57.663716 2017] [:error] [pid 8] [client 172.17.0.1:48440] PHP Notice:  Undefined index: email in /var/www/html/public/api/index.php on line 41, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:38:40.431588 2017] [:error] [pid 9] [client 172.17.0.1:48482] PHP Notice:  Undefined index: email in /var/www/html/public/api/index.php on line 41, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:39:52.668069 2017] [:error] [pid 20] [client 172.17.0.1:48494] PHP Notice:  Undefined index: email in /var/www/html/public/api/index.php on line 41, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:40:01.169960 2017] [:error] [pid 17] [client 172.17.0.1:48528] PHP Notice:  Undefined index: email in /var/www/html/public/api/index.php on line 41, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:40:31.822724 2017] [:error] [pid 24] [client 172.17.0.1:48542] PHP Notice:  Undefined index: email in /var/www/html/public/api/index.php on line 41, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:41:47.458836 2017] [:error] [pid 8] [client 172.17.0.1:48584] PHP Notice:  Undefined index: email in /var/www/html/public/api/index.php on line 41, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:42:41.092517 2017] [:error] [pid 9] [client 172.17.0.1:48602] PHP Notice:  Undefined index: email in /var/www/html/public/api/index.php on line 41, referer: http://localhost/blog/o-que-e-etica-hacker.html
+[Fri Mar 24 15:47:31.346423 2017] [:error] [pid 22] [client 172.17.0.1:48964] PHP Notice:  Undefined index: email in /var/www/html/public/api/index.php on line 41, referer: http://localhost/blog/o-que-e-etica-hacker.html
+sh: 1: -t: not found
+[Fri Mar 24 15:53:42.003023 2017] [:error] [pid 22] [client 172.17.0.1:49210] PHP Warning:  file_put_contents(../blog/o-que-e-etica-hacker/comments.json): failed to open stream: Permission denied in /var/www/html/public/api/index.php on line 277, referer: http://localhost/blog/o-que-e-etica-hacker.html
+sh: 1: -t: not found
+[Fri Mar 24 15:57:26.935991 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 15:57:29.173810 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 15:57:29.173870 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+sh: 1: -t: not found
+sh: 1: -t: not found
+[Fri Mar 24 17:26:51.319088 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.3. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 18:37:58.565480 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 18:37:58.565533 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 19:17:52.570280 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 19:17:52.570323 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Mar 24 19:19:54.398800 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 19:19:55.956531 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 19:19:55.956577 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Mar 24 19:19:59.094772 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 19:20:02.143667 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 19:20:02.143706 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Mar 24 19:21:38.208611 2017] [core:error] [pid 14] [client 172.17.0.1:36918] AH00082: an unknown filter was not added: includes
+[Fri Mar 24 19:21:38.669818 2017] [core:error] [pid 14] [client 172.17.0.1:36918] AH00082: an unknown filter was not added: includes
+[Fri Mar 24 19:21:38.836561 2017] [core:error] [pid 14] [client 172.17.0.1:36918] AH00082: an unknown filter was not added: includes
+[Fri Mar 24 19:22:21.965898 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.17.0.2. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20131226/php_gd2.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[Fri Mar 24 19:22:53.078347 2017] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Fri Mar 24 19:22:53.078384 2017] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Mar 24 20:04:29.120552 2017] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down

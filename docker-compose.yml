@@ -1,0 +1,9 @@
+httpd:
+  image: php5.6
+  ports:
+    - 80:80
+  volumes:
+    - ./:/var/www/html/public
+    - ./apache2/etc:/etc/apache2
+    - ./apache2/php:/usr/local/etc/php
+    - ./apache2/log:/var/log/apache2
